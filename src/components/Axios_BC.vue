@@ -6,19 +6,24 @@
         </div>
          <div id="chart">
             <PSIIndex></PSIIndex>
-        
         </div>
-        
+        <div id = "chart">
+            <covid19/>
+        </div>
+        <div id = "chart">
+            <transport/>
+        </div>
     </div>
 </template>
 
 <script>
 import axiosExample from '../axiosExample.js'
 import PSIIndex from '../PSIIndex.js'
-
+import covid19 from '../covid19.js'
+import transport from '../transport.js'
 export default {
     components:{
-        axiosExample,PSIIndex
+        axiosExample,PSIIndex,covid19, transport
     }
     
 }
